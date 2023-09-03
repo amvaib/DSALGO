@@ -10,7 +10,7 @@ int main(){
 
         int digit = x%10;
 
-        if(ans > INT_MAX || ans < INT_MIN){
+        if(ans > INT_MAX/10 || ans < INT_MIN/10){
             return 0;
         }
 
