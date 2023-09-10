@@ -17,6 +17,8 @@ int minArray(int num[], int size){
 
     int minvalue = INT_MAX;
     for(int i = 0 ; i<size ; i++){
+
+        // minvalue = min(minvalue , num[i]);
         if(num[i]<minvalue){
             minvalue = num[i];
         }
